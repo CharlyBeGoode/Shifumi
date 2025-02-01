@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shifumi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <header class="header">
+        <h1 class="title">Shifumi</h1>
+        <div class="navbar">
+            <p class="score">Joueur <span id="playerScore">0</span>
+             : <span id="iaScore">0</span> IA</p>   
+            <button id="reset">Reinitialiser</button>
+        </div>
+    </header>
+    <main class="main">
+        <div class="controls"><ul><li>num1 : Pierre</li><li>num2 : Feuille</li><li>num3 : Ciseaux</li></ul>
+        </div>
+        
+        <div class="triangle">
+            <button class="btn pierre"><img src="img/pierre.png" data-choice="pierre" alt="pierre"></button>
+            <button class="btn feuille"><img src="img/feuille.png" data-choice="feuille" alt="feuille"></button>
+            <button class="btn ciseaux"><img src="img/ciseaux.png" data-choice="ciseaux" alt="ciseaux"></button>
+            <div class="choixIA"><img class="imgIA"></div>
+    </main>
+    <footer>
+        </div class="result">
+        <h1 id="resultat" ></h1>
+        </div>
+    </footer>
+        <script src="script.js"></script>
+</body>
+</html>
